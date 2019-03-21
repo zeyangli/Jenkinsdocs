@@ -3,7 +3,7 @@
 
 
 ## 第1章  认识Jenkins
-1.1  Jenkins是什么？
+###1.1  Jenkins是什么？
 1.2  Jenkins特点
 1.3  Jenkins发展
             1.4  Jenkins项目类型
