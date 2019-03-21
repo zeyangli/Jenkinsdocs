@@ -31,3 +31,4 @@
 4.5  Jenkins+Gitlab集成
 4.5.1  webhook自动触发
 4.5.2  sso认证集成
+4.6 Jenkins+SaltStack集成
