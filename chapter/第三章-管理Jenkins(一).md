@@ -64,4 +64,4 @@
 - 系统设置->Manage and Assign Roles->Assign Roles
 ![管理页面](static/image/03/15-assign.png)
 
-## 总结
+### [下一章](./第三章-管理Jenkins(二).md)       <--------->  [上一章](./第二章-安装Jenkins.md)

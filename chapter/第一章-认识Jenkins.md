@@ -1,5 +1,5 @@
 # 第一章 Jenkins简介
-## 1. 认识Jenkins
+## 1. 认识Jenkins    
 ### 1.1 Jenkins是什么？
 [Jenkins官网](http://jenkins.io/) Jenkins前身是Hudson，使用java语言开发的自动化发布工具。在中大型金融等企业中普遍使用Jenkins来作为项目发布工具。 Jenkins官方提供的插件使Jenkins更为强大。
 
@@ -42,4 +42,4 @@ Jenkins的前身是Hudson，采用JAVA编写的持续集成开源工具。Hudson
 ![管理页面](./static/image/06-triggertype.png)
 
 
-## 总结
+### [下一章](./第二章-安装Jenkins.md)       <--------->  [首页](../README.MD) 

@@ -81,6 +81,4 @@ java -jar agent.jar -jnlpUrl http://192.168.0.41/computer/test1/slave-agent.jnlp
 ![管理页面](static/image/02/08-jenkinsconfig.png)
 
 
-
-
-## 总结
+### [下一章](./第三章-管理Jenkins(一).md)       <--------->  [上一章](./第一章-认识Jenkins.md) 
