@@ -3,12 +3,12 @@
 
 
 ## 第1章  认识Jenkins
-###1.1  Jenkins是什么？
-1.2  Jenkins特点
-1.3  Jenkins发展
-            1.4  Jenkins项目类型
-            1.5  Jenkins参数类型
-            1.6  Jenkins构建触发器
+   1.1  Jenkins是什么？
+   1.2  Jenkins特点
+   1.3  Jenkins发展
+   1.4  Jenkins项目类型
+   1.5  Jenkins参数类型
+   1.6  Jenkins构建触发器
 ## 第2章  安装Jenkins
 2.1  先决条件
 2.1.1  硬件要求
