@@ -23,37 +23,42 @@
 - [3.2  Jenkins凭据管理](chapter/第三章-管理Jenkins(一).md)
 - [3.3  Jenkins权限管理](chapter/第三章-管理Jenkins(一).md)
 
-## [第3章 管理Jenkins(二)](chapter/第三章-管理Jenkins(二).md)
-- [3.4  Jenkins项目管理](chapter/第三章-管理Jenkins(二).md)
-- [3.5  Jenkins视图管理](chapter/第三章-管理Jenkins(二).md)
-- [3.6  Jenkins插件管理](chapter/第三章-管理Jenkins(二).md)
+## [第4章 管理Jenkins(二)](chapter/第四章-管理Jenkins(二).md)
+- [3.4  Jenkins项目管理](chapter/第四章-管理Jenkins(二).md)
+- [3.5  Jenkins视图管理](chapter/第四章-管理Jenkins(二).md)
+- [3.6  Jenkins插件管理](chapter/第四章-管理Jenkins(二).md)
 
-## [第4章 集成Jenkins(一)](chapter/第四章-集成Jenkins(一).md)
-- [4.1  Jenkins+Maven集成](chapter/第四章-集成Jenkins(一).md)
-- [4.2  Jenkins+Gradle集成](chapter/第四章-集成Jenkins(一).md)
-- [4.3  Jenkins+Ant集成](chapter/第四章-集成Jenkins(一).md)
+## [第5章 集成Jenkins(一)](chapter/第五章-集成Jenkins(一).md)
+- [4.1  Jenkins+Maven集成](chapter/第五章-集成Jenkins(一).md)
+- [4.2  Jenkins+Gradle集成](chapter/第五章-集成Jenkins(一).md)
+- [4.3  Jenkins+Ant集成](chapter/第五章-集成Jenkins(一).md)
 
-## [第4章 集成Jenkins(二)](chapter/第四章-集成Jenkins(二).md)
-- [4.4  Jenkins+Ldap认证集成](chapter/第四章-集成Jenkins(二).md)
-- [4.5  Jenkins+Gitlab集成](chapter/第四章-集成Jenkins(二).md)
-   - [ 4.5.1 webhook自动触发](chapter/第四章-集成Jenkins(二).md)
-   -  [4.5.2 sso认证集成](chapter/第四章-集成Jenkins(二).md)
-- [4.6 Jenkins+SaltStack集成](chapter/第四章-集成Jenkins(二).md)
+## [第6章 集成Jenkins(二)](chapter/第六章-集成Jenkins(二).md)
+- [4.4  Jenkins+Ldap认证集成](chapter/第六章-集成Jenkins(二).md)
 
-## [第5章 流水线实践(一)](chapter/第三章-管理Jenkins(二).md)
+## [第7章 集成Jenkins(三)](chapter/第七章-集成Jenkins(三).md)
+- [4.5  Jenkins+Gitlab集成](chapter/第七章-集成Jenkins(三).md)
+   - [ 4.5.1 webhook自动触发](chapter/第七章-集成Jenkins(三).md)
+   -  [4.5.2 sso认证集成](chapter/第七章-集成Jenkins(三).md)
+
+## [第8章 集成Jenkins(四)](chapter/第八章-集成Jenkins(四).md)
+
+- [4.6 Jenkins+SaltStack集成](chapter/第8章-集成Jenkins(四).md)
+
+## [第9章 流水线实践(一)](chapter/第八章-管理Jenkins(二).md)
 
 - 5.1 前端项目发布流水线
  - 静态资源发布
  - nodejs项目发布
 
-## [第5章 流水线实践(二)](chapter/第三章-管理Jenkins(二).md)
+## [第10章 流水线实践(二)](chapter/第三章-管理Jenkins(二).md)
 - 5.2 后端项目发布流水线
  - Springboot项目
  - Tomcat项目发布
  - Django项目发布
  - Go项目发布
  
-## [第5章 流水线实践(三)](chapter/第三章-管理Jenkins(二).md)
+## [第11章 流水线实践(三)](chapter/第三章-管理Jenkins(二).md)
 - 5.3 移动端交付流水线
  -  Android项目
  -  IOS项目

@@ -22,24 +22,24 @@ Jenkins的前身是Hudson，采用JAVA编写的持续集成开源工具。Hudson
 ## 2. Jenkins WebUI
 ### 2.1 管理页面
 系统管理页面包含系统管理、全局安全管理、全局工具配置、节点管理、授权管理、插件管理、系统备份管理、日志监控管理
-![管理页面](./static/image/01-systemmanage.png)
+![管理页面](./static/image/01/01-systemmanage.png)
 
 ### 2.2 项目管理页面
-![管理页面](./static/image/02-jobsmanager.png)
+![管理页面](./static/image/01/02-jobsmanager.png)
 
 ### 2.3 构建输出页面
-![管理页面](./static/image/03-buildinput.png)
+![管理页面](./static/image/01/03-buildinput.png)
 
 ## 3. Jenkins构建
 ### 3.1 Jenkins项目类型
-![管理页面](./static/image/04-jobstype.png)
+![管理页面](./static/image/01/04-jobstype.png)
 
 ### 3.2 Jenkins参数类型
 凭据参数、字符参数、密码参数、布尔值参数、文件参数、文本参数、运行时参数、选项参数
-![管理页面](./static/image/05-argstype.png)
+![管理页面](./static/image/01/05-argstype.png)
 
 ### 3.3 Jenkins触发器
-![管理页面](./static/image/06-triggertype.png)
+![管理页面](./static/image/01/06-triggertype.png)
 
 
 ### [下一章](./第二章-安装Jenkins.md)       <--------->  [首页](../README.md) 
