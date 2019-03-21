@@ -42,4 +42,4 @@ Jenkins的前身是Hudson，采用JAVA编写的持续集成开源工具。Hudson
 ![管理页面](./static/image/06-triggertype.png)
 
 
-### [下一章](./第二章-安装Jenkins.md)       <--------->  [首页](../README.MD) 
+### [下一章](./第二章-安装Jenkins.md)       <--------->  [首页](../README.md) 
