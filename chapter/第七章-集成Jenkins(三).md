@@ -1,4 +1,4 @@
-# 第七章 集成Jenkins(三)-Gitlab
+# 第四章 Jenkins集成Gitlab
 ## 1. SSO集成
 
 ### 1.1 Gitlab配置
