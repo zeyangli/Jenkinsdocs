@@ -54,3 +54,21 @@
 ## 第8章 移动端流水线实践
  -  8.1 Android项目
  -  8.2 IOS项目
+
+## 第9章 JenkinsAPI
+ - 9.1 Jenkins自动授权用户脚本
+ - 9.2 Python-Jenkins库
+ - 9.3 基于Django用户申请项目自动创建
+
+## 第10章 容器部署
+ - 10.1 基于Kubernetes部署Jenkins
+ - 10.2 Jenkins弹性创建slave节点
+ - 10.3 基于容器的前端项目发布实践
+ - 10.4 基于容器的后端项目发布实践
+ 
+## 第11章 技术扩展
+ - 11.1 Gitlab安装部署与维护
+ - 11.2 Nexus安装部署与维护
+ - 11.3 Harbor安装部署与维护
+ - 11.4 SonarQube安装部署与维护
+ - 11.5 GitlabCI 应用
