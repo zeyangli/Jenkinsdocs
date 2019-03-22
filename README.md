@@ -36,21 +36,21 @@
    -  [4.5.2 sso认证集成](chapter/第七章-集成Jenkins(三).md)
 - [4.6 Jenkins+SaltStack集成](chapter/第八章-集成Jenkins(四).md)
 
-## [第5章 流水线实践](chapter/第九章-流水线实践(一).md)
+## [第5章 流水线基础](chapter/第九章-流水线实践(一).md)
 
 - [5.1 流水线基础-认识Pipeline](chapter/第九章-流水线实践(一).md)
 - [5.2 流水线实践-Pipeline语法](chapter/第十章-流水线实践(二).md)
 
-- [5.3 前端项目发布流水线](chapter/第十一章-流水线实践(三).md)
- - [静态资源发布](chapter/第十一章-流水线实践(三).md)
- - nodejs项目发布
+## [第6章 前端项目流水线实践](chapter/第十一章-流水线实践(三).md)
+- [6.1 静态资源发布](chapter/第十一章-流水线实践(三).md)
+- [6.2 nodejs项目发布](chapter/第十二章-流水线实践(四).md)
 
-- 5.4 后端项目发布流水线
- - Springboot项目
- - Tomcat项目发布
- - Django项目发布
- - Go项目发布
+## 第7章 后端项目流水线实践
+ - 7.1 Java Springboot项目发布
+ - 7.2 Java Tomcat项目发布
+ - 7.3 Python Django项目发布
+ - 7.4 Go Golang项目发布
  
-- 5.5 移动端交付流水线
- -  Android项目
- -  IOS项目
+## 第8章 移动端流水线实践
+ -  8.1 Android项目
+ -  8.2 IOS项目
