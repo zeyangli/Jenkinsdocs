@@ -34,7 +34,7 @@
 - [4.5  Jenkins+Gitlab集成](chapter/第七章-集成Jenkins(三).md)
    - [ 4.5.1 webhook自动触发](chapter/第七章-集成Jenkins(三).md)
    -  [4.5.2 sso认证集成](chapter/第七章-集成Jenkins(三).md)
-- [4.6 Jenkins+SaltStack集成](chapter/第8章-集成Jenkins(四).md)
+- [4.6 Jenkins+SaltStack集成](chapter/第八章-集成Jenkins(四).md)
 
 ## [第5章 流水线实践](chapter/第九章-流水线实践(一).md)
 
