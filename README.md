@@ -51,9 +51,11 @@
  - 7.3 Python Django项目发布
  - 7.4 Go Golang项目发布
  
-## 第8章 移动端流水线实践
- -  8.1 Android项目
- -  8.2 IOS项目
+## [第8章 移动端流水线实践](chapter/android/Android打包环境.md)
+ -  [8.1 搭建Android打包环境](chapter/android/Android打包环境.md)
+ -  [8.2 Android打包手动发布流程](chapter/android/Android发布(手动).md)
+ -  8.3 Android项目通过Jenkins自动发布
+ -  8.4 IOS项目
 
 ## 第9章 JenkinsAPI
  - 9.1 Jenkins自动授权用户脚本
