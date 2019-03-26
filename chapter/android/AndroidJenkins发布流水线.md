@@ -1,9 +1,5 @@
 # Android项目发布流水线（demo）
 
-<iframe height=300 width=700 src="http://ke.itzeyang.com/android-01.mp4" frameborder=0 allowfullscreen></iframe>
-
-
-<iframe height=300 width=700 src="http://ke.itzeyang.com/android-02.mp4" frameborder=0 allowfullscreen></iframe>
 
 ## 1.项目配置
 
