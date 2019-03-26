@@ -181,6 +181,8 @@ node("master"){
 
 Fir平台
 ![images](./images/12.png)
+蒲公英平台
+![images](./images/13.png)
 
 
 
