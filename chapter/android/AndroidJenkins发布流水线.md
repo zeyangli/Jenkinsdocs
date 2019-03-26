@@ -17,15 +17,17 @@
 ```
 #coding:utf8
 
+
 import requests
 import sys
 import json
 
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 class ApkManage(object):
     def __init__(self):
         self.url = "http://api.fir.im/apps"
-
 
     def getCert(self):
         dataargs = {'type' : 'android',
@@ -66,15 +68,17 @@ class ApkManage(object):
     def uploadPgyer(self):
         url = 'https://qiniu-storage.pgyer.com/apiv1/app/upload'
         try:
-            print("upload apk to pgyer ......")
+            #print("upload apk to pgyer ......")
             apkfile = {'file' : open(apkpath,'rb')}
-            params = {"uKey" : '7b70873bbxxx3f94af9611d2ae5',
-                      "_api_key" : 'a9acab611e155xxx82c5cae360a5ab'}
+            params = {"uKey" : '7b70873bb4d6xxxxx1d2ae5',
+                      "_api_key" : 'a9acab611e1xxxxxxx5cae360a5ab'}
 
             response = requests.post(url,files=apkfile,data=params,verify=False)
-            print(response.text)
+            #print(response.text)
+            qrcodes = json.loads(response.text)['data']['appQRCodeURL']
             if int(response.status_code) == 200 :
-                print("upload success!  return -->" + str(response.status_code))
+                #print("upload success!  return -->" + str(response.status_code))
+                print(qrcodes)
             else:
                 print("upload error! return -->" + str(response.status_code))
 
@@ -97,7 +101,6 @@ if __name__ == '__main__':
         server.uploadFir()
     elif platform == 'pgyer':
         server.uploadPgyer()
-
 ```
 
 使用方式
@@ -112,12 +115,10 @@ Jenkinsfile简单的包含三个stage，分别是：
 
 - Checkout: 检出代码（这种方式是直接获取Jenkinsfile的项目地址，Jenkinsfile在项目中可以这样写）。
 - Build: 构建打包 (执行gradle构建命令)。
-- Upload: 上传包到fir.im平台(更改包名，调用脚本上传)。
+- Upload: 上传包到平台(更改包名，调用脚本上传)。
+
 
 ```
-/**
-* Android Jenkinsfile
-*/
 node("master"){
   stage("Checkout"){
     checkout scm
@@ -129,19 +130,29 @@ node("master"){
   }
   
   stage("Upload"){
-      sh """  
+      /*sh """ 
          mv app/build/outputs/apk/debug/app-debug.apk ./${params.apkName}.apk
          python uploadapk.py ${params.bundleId} \
          ${params.apiToken} "${params.apkName}.apk" \
          "${params.apkName}" "${BUILD_ID}" \
          "${params.apkVersion}" "${params.appPlatform}"
          
-         """
-  
+         
+         """*/
+      sh "mv app/build/outputs/apk/debug/app-debug.apk ./${params.apkName}.apk"
+      def result 
+      result = sh returnStdout: true, script: """python uploadapk.py ${params.bundleId} \
+                                                 ${params.apiToken} "${params.apkName}.apk" \
+                                                 "${params.apkName}" "${BUILD_ID}" \
+                                                 "${params.apkVersion}" "${params.appPlatform}" """
+       
+      result = result - "\n"
+      println(result)
+    currentBuild.description="<img src=${result}>"
   }
   
+  
 }
-
 ```
 
 
@@ -183,6 +194,10 @@ Fir平台
 ![images](./images/12.png)
 蒲公英平台
 ![images](./images/13.png)
+
+二维码
+![images](./images/14.png)
+
 
 
 
