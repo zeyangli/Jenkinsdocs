@@ -47,7 +47,7 @@
 - [6.3 dotnet项目发布](chapter/dotnet项目流水线.md)
 
 ## 第7章 后端项目流水线实践
- - 7.1 Java Springboot项目发布
+ - [7.1 Java Springboot项目发布](chapter/springboot项目流水线.md)
  - 7.2 Java Tomcat项目发布
  - 7.3 Python Django项目发布
  - 7.4 Go Golang项目发布
