@@ -44,6 +44,7 @@
 ## [第6章 前端项目流水线实践](chapter/第十一章-流水线实践(三).md)
 - [6.1 静态资源发布](chapter/第十一章-流水线实践(三).md)
 - [6.2 nodejs项目发布](chapter/第十二章-流水线实践(四).md)
+- [6.3 dotnet项目发布](chapter/dotnet项目流水线.md)
 
 ## 第7章 后端项目流水线实践
  - 7.1 Java Springboot项目发布
