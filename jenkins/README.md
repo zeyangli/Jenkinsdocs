@@ -50,7 +50,7 @@
  - [7.1 Java Springboot项目发布](chapter/springboot项目流水线.md)
  - 7.2 Java Tomcat项目发布
  - 7.3 Python Django项目发布
- - 7.4 Go Golang项目发布
+ - [7.4 Go Golang项目发布](chapter/Golang项目流水线.md)
  
 ## [第8章 移动端流水线实践](chapter/android/Android打包环境.md)
  -  [8.1 基于Centos搭建Android打包环境](chapter/android/Android打包环境.md)
