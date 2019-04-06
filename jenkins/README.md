@@ -27,19 +27,25 @@
 - [3.6  Jenkins插件管理](chapter/第四章-管理Jenkins(二).md)
 
 ## 第4章 集成Jenkins
-- [4.1  Jenkins+Maven集成](chapter/第五章-集成Jenkins(一).md)
-- [4.2  Jenkins+Gradle集成](chapter/第五章-集成Jenkins(一).md)
-- [4.3  Jenkins+Ant集成](chapter/第五章-集成Jenkins(一).md)
-- [4.4  Jenkins+Ldap认证集成](chapter/第六章-集成Jenkins(二).md)
-- [4.5  Jenkins+Gitlab集成](chapter/第七章-集成Jenkins(三).md)
+- [4.1  Jenkins+Maven](chapter/第五章-集成Jenkins(一).md)
+- [4.2  Jenkins+Gradle](chapter/第五章-集成Jenkins(一).md)
+- [4.3  Jenkins+Ant](chapter/第五章-集成Jenkins(一).md)
+- [4.4  Jenkins+Ldap](chapter/第六章-集成Jenkins(二).md)
+- [4.5  Jenkins+Gitlab](chapter/第七章-集成Jenkins(三).md)
    - [ 4.5.1 webhook自动触发](chapter/第七章-集成Jenkins(三).md)
-   -  [4.5.2 sso认证集成](chapter/第七章-集成Jenkins(三).md)
-- [4.6 Jenkins+SaltStack集成](chapter/第八章-集成Jenkins(四).md)
+   -  [4.5.2 sso认证](chapter/第七章-集成Jenkins(三).md)
+- [4.6 Jenkins+SaltStack](chapter/第八章-集成Jenkins(四).md)
+- 4.7 Jenkins + Ansible
+- 4.8 Jenkins + SonarQube
+- 4.9 Jenkins + Artifactory
+- 4.10 Jenkins + Nexus
+- 4.11 Jenkins + Docker
 
 ## 第5章 流水线基础
 
 - [5.1 流水线基础-认识Pipeline](chapter/第九章-流水线实践(一).md)
 - [5.2 流水线实践-Pipeline语法](chapter/第十章-流水线实践(二).md)
+- 5.3 Groovy编程-基础语法
 
 ## 第6章 前端项目流水线实践
 - [6.1 静态资源发布](chapter/第十一章-流水线实践(三).md)
@@ -48,9 +54,8 @@
 
 ## 第7章 后端项目流水线实践
  - [7.1 Java Springboot项目发布](chapter/springboot项目流水线.md)
- - 7.2 Java Tomcat项目发布
- - 7.3 Python Django项目发布
- - [7.4 Go Golang项目发布](chapter/Golang项目流水线.md)
+ - 7.2 Python Django项目发布
+ - [7.3 Go Golang项目发布](chapter/Golang项目流水线.md)
  
 ## 第8章 移动端流水线实践
  -  [8.1 基于Centos搭建Android打包环境](chapter/android/Android打包环境.md)
@@ -59,19 +64,11 @@
  -  8.4 IOS项目
 
 ## 第9章 JenkinsAPI
- - 9.1 Jenkins自动授权用户脚本
- - 9.2 Python-Jenkins库
- - 9.3 基于Django用户申请项目自动创建
+ - 9.1 Jenkins用户授权接口
+ - 9.2 基于Python的Jenkins库使用
 
 ## 第10章 容器部署
  - 10.1 基于Kubernetes部署Jenkins
  - 10.2 Jenkins弹性创建slave节点
  - 10.3 基于容器的前端项目发布实践
  - 10.4 基于容器的后端项目发布实践
- 
-## 第11章 技术扩展
- - 11.1 Gitlab安装部署与维护
- - 11.2 Nexus安装部署与维护
- - 11.3 Harbor安装部署与维护
- - 11.4 SonarQube安装部署与维护
- - 11.5 GitlabCI 应用
