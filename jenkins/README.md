@@ -1,6 +1,6 @@
-# [Jenkins实践文档](./README.md)
+# Jenkins实践文档
 
-## [第1章 认识Jenkins](chapter/第一章-认识Jenkins.md)
+## 第1章 认识Jenkins
 
 - [1.1  Jenkins是什么？](chapter/第一章-认识Jenkins.md)
 - [1.2  Jenkins特点](chapter/第一章-认识Jenkins.md)
@@ -9,7 +9,7 @@
 - [1.5  Jenkins参数类型](chapter/第一章-认识Jenkins.md)
 - [1.6  Jenkins构建触发器](chapter/第一章-认识Jenkins.md)
 
-## [第2章 安装Jenkins](chapter/第二章-安装Jenkins.md)
+## 第2章 安装Jenkins
 
 - [2.1  先决条件](chapter/第二章-安装Jenkins.md)
  -  [2.1.1 硬件要求](chapter/第二章-安装Jenkins.md)
@@ -18,7 +18,7 @@
 - [2.3  基于Linux安装Jenkins](chapter/第二章-安装Jenkins.md)
 - [2.4  基于MacOS安装Jenkins](chapter/第二章-安装Jenkins.md)
 
-## [第3章 管理Jenkins](chapter/第三章-管理Jenkins(一).md)
+## 第3章 管理Jenkins
 - [3.1  Jenkins用户管理](chapter/第三章-管理Jenkins(一).md)
 - [3.2  Jenkins凭据管理](chapter/第三章-管理Jenkins(一).md)
 - [3.3  Jenkins权限管理](chapter/第三章-管理Jenkins(一).md)
@@ -26,7 +26,7 @@
 - [3.5  Jenkins视图管理](chapter/第四章-管理Jenkins(二).md)
 - [3.6  Jenkins插件管理](chapter/第四章-管理Jenkins(二).md)
 
-## [第4章 集成Jenkins](chapter/第五章-集成Jenkins(一).md)
+## 第4章 集成Jenkins
 - [4.1  Jenkins+Maven集成](chapter/第五章-集成Jenkins(一).md)
 - [4.2  Jenkins+Gradle集成](chapter/第五章-集成Jenkins(一).md)
 - [4.3  Jenkins+Ant集成](chapter/第五章-集成Jenkins(一).md)
@@ -36,12 +36,12 @@
    -  [4.5.2 sso认证集成](chapter/第七章-集成Jenkins(三).md)
 - [4.6 Jenkins+SaltStack集成](chapter/第八章-集成Jenkins(四).md)
 
-## [第5章 流水线基础](chapter/第九章-流水线实践(一).md)
+## 第5章 流水线基础
 
 - [5.1 流水线基础-认识Pipeline](chapter/第九章-流水线实践(一).md)
 - [5.2 流水线实践-Pipeline语法](chapter/第十章-流水线实践(二).md)
 
-## [第6章 前端项目流水线实践](chapter/第十一章-流水线实践(三).md)
+## 第6章 前端项目流水线实践
 - [6.1 静态资源发布](chapter/第十一章-流水线实践(三).md)
 - [6.2 nodejs项目发布](chapter/第十二章-流水线实践(四).md)
 - [6.3 dotnet项目发布](chapter/dotnet项目流水线.md)
@@ -52,7 +52,7 @@
  - 7.3 Python Django项目发布
  - [7.4 Go Golang项目发布](chapter/Golang项目流水线.md)
  
-## [第8章 移动端流水线实践](chapter/android/Android打包环境.md)
+## 第8章 移动端流水线实践
  -  [8.1 基于Centos搭建Android打包环境](chapter/android/Android打包环境.md)
  -  [8.2 Android项目手动发布](chapter/android/Android发布(手动).md)
  -  [8.3 Android项目通过Jenkins自动化发布](chapter/android/AndroidJenkins发布流水线.md)
