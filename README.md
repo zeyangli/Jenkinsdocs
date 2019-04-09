@@ -38,7 +38,7 @@
 - 4.7 Jenkins + Ansible
 - 4.8 Jenkins + SonarQube
 - 4.9 Jenkins + Artifactory
-- 4.10 Jenkins + Nexus
+- [4.10 Jenkins + Nexus](chapter/Jenkins-nexus.md)
 - 4.11 Jenkins + Docker
 
 ## 第5章 流水线基础
