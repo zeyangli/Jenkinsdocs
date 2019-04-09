@@ -68,7 +68,7 @@
  - 9.2 基于Python的Jenkins库使用
 
 ## 第10章 容器部署
- - 10.1 基于Kubernetes部署Jenkins
+ - [10.1 基于OpenShift部署Jenkins](chapter/Jenkins-in-Openshift.md)
  - 10.2 Jenkins弹性创建slave节点
  - 10.3 基于容器的前端项目发布实践
  - 10.4 基于容器的后端项目发布实践
