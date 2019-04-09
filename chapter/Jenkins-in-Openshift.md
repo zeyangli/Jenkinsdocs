@@ -1,4 +1,5 @@
-# Jenkins in Openshift
+# 基于OpenShift平台部署Jenkins
+
 
 ## DeploymentConfig(jenkin-dc.yml)
 
@@ -180,4 +181,6 @@ spec:
 ```
 
 ## 验证测试
+账号密码： 默认admin 和JENKINS_PASSWORD变量的密码 xxxxxxxx
 ![images](./openshift/05.png)
+
