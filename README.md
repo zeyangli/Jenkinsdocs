@@ -64,7 +64,7 @@
  -  8.4 IOS项目
 
 ## 第9章 JenkinsAPI
- - 9.1 Jenkins用户授权接口
+ - [9.1 Jenkins用户授权接口](chapter/Jenkins脚本自动授权.md)
  - 9.2 基于Python的Jenkins库使用
 
 ## 第10章 容器部署
