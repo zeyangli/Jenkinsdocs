@@ -108,11 +108,68 @@ oc create -f jenkins-dc.yml
 ```
 
 ## 创建service和route
-![images](./openshift/01.png)
-![images](./openshift/02.png)
-![images](./openshift/03.png)
-![images](./openshift/04.png)
+### 1.通过图形界面创建
+  ![images](./openshift/01.png)
+  ![images](./openshift/02.png)
+  ![images](./openshift/03.png)
+  ![images](./openshift/04.png)
+  
+### 2.通过yaml创建
 
+jenkins-service.yml
+```
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: jenkins
+  name: jenkins
+  namespace: jenkins
+spec:
+  clusterIP: 172.30.100.180
+  ports:
+  - name: 53-tcp
+    port: 53
+    protocol: TCP
+    targetPort: 53
+  - name: 8080-tcp
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  - name: 8443-tcp
+    port: 8443
+    protocol: TCP
+    targetPort: 8443
+  - name: 50000-tcp
+    port: 50000
+    protocol: TCP
+    targetPort: 50000
+  selector:
+    deploymentconfig: jenkins
+  sessionAffinity: None
+  type: ClusterIP
+```
+
+jenkins-router.yml
+
+```
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: jenkins
+  name: jenkins
+  namespace: jenkins
+spec:
+  host: jenkins-jenkins.router.default.svc.cluster.local
+  port:
+    targetPort: 8080-tcp
+  to:
+    kind: Service
+    name: jenkins
+    weight: 100
+  wildcardPolicy: None
+```
 
 ## 更改本地hosts
 
