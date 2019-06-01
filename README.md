@@ -76,4 +76,4 @@
  
  
  ## 第11章 其他配置
- - [11.1 Jenkins+InfluxDB+Grafana收集构建数据 ](chapter/Jenkins+InfluxDB+Grafana 收集构建数据.md)
+ - [ 11.1 Jenkins+InfluxDB+Grafana收集构建数据 ](chapter/Jenkins+InfluxDB+Grafana收集构建数据.md)
