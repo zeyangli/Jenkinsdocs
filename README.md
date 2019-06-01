@@ -73,3 +73,7 @@
  - 10.2 Jenkins弹性创建slave节点
  - 10.3 基于容器的前端项目发布实践
  - 10.4 基于容器的后端项目发布实践
+ 
+ 
+ ## 第11章 其他配置
+  - [11.1 Jenkins+InfluxDB+Grafana收集构建数据](chapter/Jenkins+InfluxDB+Grafana 收集构建数据.md)
