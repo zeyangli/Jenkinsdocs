@@ -77,3 +77,4 @@
  
  ## 第11章 其他配置
  - [ 11.1 Jenkins+InfluxDB+Grafana收集构建数据 ](chapter/Jenkins+InfluxDB+Grafana收集构建数据.md)
+ - [ 11.2 Prometheus安装部署+监控+绘图+告警](chapter/Prometheus安装部署+监控+绘图+告警.md)
