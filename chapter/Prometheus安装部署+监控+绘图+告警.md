@@ -192,6 +192,23 @@ scrape_configs:
 
 ```
 
+ mkdir rules && vim rules/host_rules.yml
+ 
+ ```
+groups:
+- name: 'Linux Instances'
+  rules:
+  - alert: InstanceDown
+    expr: up == 0
+    for: 5s
+    labels:
+      severity: page
+    # Prometheus templates apply here in the annotation and label fields of the alert.
+    annotations:
+      description: 'has been down for more than 5 s.'
+
+```
+
 ### 验证
 
 查看目标
