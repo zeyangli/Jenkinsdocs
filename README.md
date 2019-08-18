@@ -75,5 +75,5 @@
 
  - [ 11.2 Prometheus入门 ](chapter/Prometheus入门.md)
  - [ 11.3 Prometheus安装部署+监控+绘图+告警](chapter/Prometheus安装部署+监控+绘图+告警.md)
- - [ 11.4 Jmeter接口测试实践 ](chapter/ant+jmeter/Jmeter接口测试.md)
- - [ 11.5 Ant+Jmeter批量接口测试实践 ](chapter/jmeter01/AntJmeter接口测试.md)
+ - [ 11.4 Jmeter接口测试实践 ](chapter/jmeter01/Jmeter接口测试.md)
+ - [ 11.5 Ant+Jmeter批量接口测试实践 ](chapter/ant+jmeter/AntJmeter接口测试.md)
