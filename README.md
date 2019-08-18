@@ -46,7 +46,7 @@
 
 - [5.1 流水线基础-认识Pipeline](chapter/第九章-流水线实践(一).md)
 - [5.2 流水线实践-Pipeline语法](chapter/第十章-流水线实践(二).md)
-- 5.3 Groovy编程-基础语法
+
 
 ## 第6章 前端项目流水线实践
 - [6.1 静态资源发布](chapter/第十一章-流水线实践(三).md)
@@ -55,24 +55,19 @@
 
 ## 第7章 后端项目流水线实践
  - [7.1 Java Springboot项目发布](chapter/springboot项目流水线.md)
- - 7.2 Python Django项目发布
- - [7.3 Go Golang项目发布](chapter/Golang项目流水线.md)
+ - [7.2 Go Golang项目发布](chapter/Golang项目流水线.md)
  
 ## 第8章 移动端流水线实践
  -  [8.1 基于Centos搭建Android打包环境](chapter/android/Android打包环境.md)
  -  [8.2 Android项目手动发布](chapter/android/Android发布(手动).md)
  -  [8.3 Android项目通过Jenkins自动化发布](chapter/android/AndroidJenkins发布流水线.md)
- -  8.4 IOS项目
 
 ## 第9章 JenkinsAPI
  - [9.1 Jenkins用户授权接口](chapter/Jenkins脚本自动授权.md)
- - 9.2 基于Python的Jenkins库使用
 
 ## 第10章 容器部署
  - [10.1 基于OpenShift部署Jenkins](chapter/Jenkins-in-Openshift.md)
  - 10.2 Jenkins弹性创建slave节点
- - 10.3 基于容器的前端项目发布实践
- - 10.4 基于容器的后端项目发布实践
  
  
  ## 第11章 其他配置
@@ -80,3 +75,5 @@
 
  - [ 11.2 Prometheus入门 ](chapter/Prometheus入门.md)
  - [ 11.3 Prometheus安装部署+监控+绘图+告警](chapter/Prometheus安装部署+监控+绘图+告警.md)
+ - [ 11.4 Jmeter接口测试实践 ](chapter/ant+jmeter/Jmeter接口测试.md)
+ - [ 11.5 Ant+Jmeter批量接口测试实践 ](chapter/jmeter01/AntJmeter接口测试.md)
