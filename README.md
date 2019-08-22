@@ -67,7 +67,7 @@
 
 ## 第10章 容器部署
  - [10.1 基于OpenShift部署Jenkins](chapter/Jenkins-in-Openshift.md)
- - [ 10.2 基于OpenShift部署构建资源池] (chapter/openshift-jenkins/基于OpenShit搭建Jenkins构建资源池.md)
+ - [10.2 基于OpenShift部署构建资源池](chapter/openshift-jenkins/基于OpenShit搭建Jenkins构建资源池.md)
  
  
  ## 第11章 其他配置
