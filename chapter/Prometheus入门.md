@@ -19,7 +19,7 @@
 
 
 ## 架构设计
-![images](./prometheus/001.png)
+![images](https://raw.githubusercontent.com/zeyangli/Jenkins-docs/master/chapter/prometheus/001.png)
 
 
 
@@ -82,14 +82,14 @@
 - Prometheus会将所有采集到的样本数据以时间序列（time-series）的方式保存在内存数据库中，并且定时保存到硬盘上。
 - time-series是按照时间戳和值的序列顺序存放的，我们称之为向量(vector). 每条time-series通过指标名称(metrics name)和一组标签集(labelset)命名。
 
-![images](./prometheus/002.png)
+![images](https://raw.githubusercontent.com/zeyangli/Jenkins-docs/master/chapter/prometheus/002.png)
 
 ### 样本组成
 - 指标(metric)：metric name和描述当前样本特征的labelsets;
 - 时间戳(timestamp)：一个精确到毫秒的时间戳;
 - 样本值(value)： 一个folat64的浮点型数据表示当前样本的值。
 
-![images](./prometheus/003.png)
+![images](https://raw.githubusercontent.com/zeyangli/Jenkins-docs/master/chapter/prometheus/003.png)
 
 
 ## 数据采集
