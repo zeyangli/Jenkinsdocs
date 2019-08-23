@@ -66,8 +66,9 @@
  - [9.1 Jenkins用户授权接口](chapter/Jenkins脚本自动授权.md)
 
 ## 第10章 容器部署
- - [10.1 基于OpenShift部署Jenkins](chapter/Jenkins-in-Openshift.md)
- - [10.2 基于OpenShift部署构建资源池](chapter/openshift-jenkins/基于OpenShit搭建Jenkins构建资源池.md)
+ - [10.1 JenkinsSlave容器化配置](chapter/JenkinsSlave容器化配置.md)
+ - [10.2 基于OpenShift部署Jenkins](chapter/Jenkins-in-Openshift.md)
+ - [10.3 基于OpenShift部署构建资源池](chapter/openshift-jenkins/基于OpenShit搭建Jenkins构建资源池.md)
  
  
  ## 第11章 其他配置
